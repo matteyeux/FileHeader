@@ -196,7 +196,7 @@ def get_template(syntax_type):
 def get_strftime():
     '''Get `time_format` setting'''
 
-    _ = ['%Y/%m/%d', '%Y-%m-%d', '%H:%M:%S']
+    _ = ['%d/%m/%Y', '%Y-%m-%d', '%H:%M:%S']
 
     format = Settings().get('custom_time_format')
 
