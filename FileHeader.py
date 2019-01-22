@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: Lime
 # @Date:   2013-10-28 13:39:48
-# @Last Modified by:   qkdreyer
-# @Last Modified time: 2017-08-14 16:48:32
+# @Last Modified by:   Mathieu HAUTEBAS
+# @Last Modified time: 2019/01/22
 
 import os
 import sys
@@ -196,7 +196,7 @@ def get_template(syntax_type):
 def get_strftime():
     '''Get `time_format` setting'''
 
-    _ = ['%Y-%m-%d %H:%M:%S', '%Y-%m-%d', '%H:%M:%S']
+    _ = ['%Y/%m/%d', '%Y-%m-%d', '%H:%M:%S']
 
     format = Settings().get('custom_time_format')
 
